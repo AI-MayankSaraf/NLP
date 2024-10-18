@@ -1,3 +1,2 @@
-nltk
 nltk.tokenize
 nltk.corpus
