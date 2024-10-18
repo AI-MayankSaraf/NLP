@@ -1,7 +1,2 @@
 streamlit 
 nltk
-word_tokenize
-sent_tokenize
-stopwords
-pos_tag
-ne_chunk
