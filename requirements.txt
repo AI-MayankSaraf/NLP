@@ -1,6 +1,5 @@
 streamlit 
 nltk
-from nltk import *
-from nltk.tokenize import word_tokenize, sent_tokenize
-from nltk.corpus import stopwords
-from nltk import pos_tag, ne_chunk
+word_tokenize, sent_tokenize
+stopwords
+pos_tag, ne_chunk
