@@ -1,1 +1,3 @@
-requirements file added 
+nltk
+nltk.tokenize
+nltk.corpus
