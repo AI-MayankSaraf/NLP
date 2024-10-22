@@ -3,7 +3,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 # Title of the Streamlit app
-st.title("Fantastic Word Cloud Generator")
+st.title("Word Cloud Generator")
 
 # Text input for the user
 text_input = st.text_area("Enter the text for the word cloud", height=200)
