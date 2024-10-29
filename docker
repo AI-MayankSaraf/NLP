@@ -1,5 +1,5 @@
 
-# Use the official Python image from the Docker Hub
+# Use the official Python image from Docker Hub
 FROM python:3.12-slim
 
 # Set the working directory in the container
@@ -9,8 +9,10 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install any dependencies using pip
-RUN python -m spacy download en_core_web_sm
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Download the spaCy model
+RUN python -m spacy download en_core_web_sm
 
 # Copy the rest of the application code into the container
 COPY . .
@@ -19,4 +21,4 @@ COPY . .
 EXPOSE 8501
 
 # Command to run the application
-CMD ["streamlit", "run", "xml_nlp_app2.py"]
+CMD ["streamlit", "run", "xml_nlp_app2.py"] 
