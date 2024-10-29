@@ -1,5 +1,5 @@
-streamlit==1.17.0  # or your preferred version
-scipy==1.10.0      # Specify a version known to work
+streamlit==1.17.0
+scipy==1.10.0
 nltk
 spacy
 gensim
