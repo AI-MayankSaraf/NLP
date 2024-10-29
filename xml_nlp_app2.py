@@ -10,13 +10,21 @@ import matplotlib.pyplot as plt
 from gensim.corpora.dictionary import Dictionary
 from gensim.models import LdaModel
 from nltk import ne_chunk, pos_tag
-from nltk.tree import Tree
+from nltk.tree import Tree 
+
 
 # Download necessary NLTK data files
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
+
+
+import os
+
+# Check if the model is already installed
+if not os.path.exists(spacy.util.get_model_path("en_core_web_sm")):
+    os.system("python -m spacy download en_core_web_sm")
 
 # Load spaCy model for NER
 nlp = spacy.load("en_core_web_sm")
