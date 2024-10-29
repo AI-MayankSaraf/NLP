@@ -1,3 +1,5 @@
+
+spacy
 streamlit
 nltk
 wordcloud
