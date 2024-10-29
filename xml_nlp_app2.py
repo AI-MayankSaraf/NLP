@@ -18,13 +18,13 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('maxent_ne_chunker')
 nltk.download('words')
-
-
-import os
-
-# Check if the model is already installed
-if not os.path.exists(spacy.util.get_model_path("en_core_web_sm")):
-    os.system("python -m spacy download en_core_web_sm")
+ 
+import subprocess
+import importlib.util 
+# Check if the model is installed, and install if necessary
+model_name = "en_core_web_sm"
+if not importlib.util.find_spec(model_name):
+    subprocess.run(["python", "-m", "spacy", "download", model_name])
 
 # Load spaCy model for NER
 nlp = spacy.load("en_core_web_sm")
