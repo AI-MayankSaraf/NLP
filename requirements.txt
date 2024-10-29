@@ -1,8 +1,5 @@
-nltk
-matplotlib
-pillow 
 scipy==1.7.3
-streamlit==1.39.0 
+streamlit==1.39.0
 nltk
 requests
 beautifulsoup4
