@@ -8,3 +8,4 @@ pillow
 requests 
 beautifulsoup4
 gensim
+scipy.linalg
