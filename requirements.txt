@@ -1,7 +1,7 @@
-streamlit 
-spacy 
+streamlit
+scipy>=1.10.0
 nltk
-scipy
-beautifulsoup4
+spacy
 gensim
 wordcloud
+matplotlib
