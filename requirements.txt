@@ -8,3 +8,4 @@ pillow
 spacy
 requests 
 beautifulsoup4
+gensim
