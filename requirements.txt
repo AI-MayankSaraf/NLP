@@ -2,8 +2,6 @@ streamlit
 nltk
 wordcloud
 matplotlib
-#spacy
-#gensim==3.8.3  # Summarization module was removed in gensim 4.x
 pillow
 spacy
 requests 
