@@ -1,5 +1,4 @@
 
-spacy
 streamlit
 nltk
 wordcloud
@@ -8,4 +7,4 @@ pillow
 requests 
 beautifulsoup4
 gensim
-scipy.linalg
+scipy==1.7.3
