@@ -1,7 +1,7 @@
-streamlit==1.17.0
-scipy==1.10.0
-nltk
-spacy
-gensim
-wordcloud
-matplotlib
+streamlit==1.20.0  # Adjust to your latest tested version
+scipy==1.10.0      # Known working version
+nltk==3.6.5        # Or any stable version
+spacy==3.3.1       # Or any stable version
+gensim==4.1.2      # Adjust as needed
+wordcloud==1.8.2   # Adjust as needed
+matplotlib==3.5.1   # Adjust as needed
